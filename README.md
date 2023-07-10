@@ -5,13 +5,16 @@
 </div>
 
 ## Run
-Make sure you have `git` and `curl` installed
+Make sure you have `git`, `curl` and `nano` installed 
 ```bash
 git clone https://github.com/GabsEdits/apx-2.0-installer
 ```
 ```bash
 cd apx-2.0-installer
 ```
+```bash
+nano install.sh # Here you are going to edit WORK_DIR (the first line)
+``` 
 ```bash
 sudo sh install.sh
 ```
