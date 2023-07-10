@@ -1,6 +1,7 @@
 #!/bin/bash
 
-WORK_DIR="YOUR_WORK_DIR"  # <- edit this path
+echo "Please enter the working directory:"
+read -r WORK_DIR
 
 mkdir -p "$WORK_DIR"
 cd "$WORK_DIR"
