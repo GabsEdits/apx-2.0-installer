@@ -1,9 +1,10 @@
 #!/bin/bash
 
-echo "Please enter the working directory:"
+echo "Please enter or create a working directory:"
 read -r WORK_DIR
 
-mkdir -p "$WORK_DIR"
+mkdir -p "$WORK_DIR" # Creates the working directory if non existing
+
 cd "$WORK_DIR"
 
 curl -LO https://github.com/89luca89/distrobox/archive/refs/tags/1.5.0.2.tar.gz
