@@ -8,13 +8,7 @@
 ## Run
 Make sure you have `git` and `curl` installed 
 ```bash
-git clone https://github.com/GabsEdits/apx-2.0-installer
-```
-```bash
-cd apx-2.0-installer
-```
-```bash
-sudo sh install.sh
+bash <(curl -s https://raw.githubusercontent.com/GabsEdits/apx/v2/install.sh)
 ```
 
 ## The Installer
