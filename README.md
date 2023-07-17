@@ -2,6 +2,7 @@
 <h1>Apx 2.0 Shell Script Installer</h1>
 <p>The Automated Script Installer made by the Vanilla OS Team</p>
 <sup>The Script was found in <a href="https://vanillaos.org/2023/07/05/vanilla-os-orchid-devlog.html">Vanilla OS Orchid - Devlog 5 Jul</a></sup>
+<br><sup>The is moving to the offical APX Repo</sup>
 </div>
 
 ## Run
